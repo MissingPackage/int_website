@@ -1,0 +1,80 @@
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.5rem auto; /* Center horizontally */
+  max-width: 2000px; /* Limit the width */
+}
+
+.about-left {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.about-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px; /* Add a top margin to move the image down */
+}
+
+.group-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; 
+  object-fit: cover; /* keep image proportions */
+  border-radius: 10px; /* make round angles */
+}
+
+.features-section {
+  margin-top: 2rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column; /* Arrange features in a column */
+  align-items: center;
+  width: 100%; /* Ensure features take full width */
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  width: 100%; /* Ensure each feature takes full width */
+}
+
+.feature-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.head-office-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between images */
+}
+
+.head-office-images, .warlords-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between images */
+}
+
+.head-office-images .feature-icon, .warlords-images .feature-icon {
+  width: 50px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+}
+
+.feature.head-office, .feature.warlords {
+  display: flex;
+  flex-direction: column; /* Ensure text is below images */
+  align-items: center;
+}
+
+p {
+  font-size: 1.2rem; /* Increase font size for better readability */
+}
