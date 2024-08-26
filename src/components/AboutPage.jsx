@@ -5,13 +5,6 @@ import '../styles/AboutPage.css';
 const AboutPage = ({ onNavigate }) => {
   return (
     <div className="page">
-      <nav className="navbar">
-        <ul>
-          <li><a href="#home" onClick={() => onNavigate('home')}>Home</a></li>
-          <li><a href="#about" onClick={() => onNavigate('about')}>About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
       <div className="content">
         <h1>About Us</h1>
         <div className="about-section">
