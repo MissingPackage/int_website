@@ -9,7 +9,7 @@ const HomePage = ({ onNavigate }) => {
         <ul>
           <li><a href="#home" onClick={() => onNavigate('home')}>Home</a></li>
           <li><a href="#about" onClick={() => onNavigate('about')}>About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact" onClick={() => onNavigate('contact')}>Contact</a></li>
         </ul>
       </nav>
       <div className="content">
