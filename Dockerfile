@@ -10,7 +10,7 @@ COPY package.json ./
 RUN npm install
 
 # Install router here for safety
-RUN npm install react-router-dom
+RUN npm install react-router-dom @material-tailwind/react
 
 # Copia all project files
 COPY . .
