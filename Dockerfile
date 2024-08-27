@@ -1,20 +1,22 @@
-# Usa l'immagine di Node.js come base
+# Node Base image
 FROM node:18-alpine
 
-# Imposta la directory di lavoro nel container
+# Working DIR
 WORKDIR /app
 
-# Copia solo il package.json e package-lock.json per installare le dipendenze
+# iCopy the package.json to install dependencies
 COPY package.json ./
 
-# Installa le dipendenze
 RUN npm install
 
-# Copia tutti i file del progetto nella directory di lavoro
+# Install router here for safety
+RUN npm install react-router-dom
+
+# Copia all project files
 COPY . .
 
-# Espone la porta usata da Vite
+# Reference Vite standard port
 EXPOSE 5173
 
-# Comando di default per avviare il server di sviluppo
+# Default command
 CMD ["npm", "run", "dev"]
