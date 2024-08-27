@@ -1,15 +1,11 @@
 import React from 'react';
-import '../styles/Common.css';
-import '../styles/AboutPage.css';
 
 const AboutPage = ({ onNavigate }) => {
   return (
-    <div className="page">
-      <div className="content">
-        <h1>About Us</h1>
+      <>
+        <h1 className='pt-20 text-3xl'>About Us</h1>
         <div className="about-section">
           <div className="about-left">
-            <h2>About Us</h2>
             <p>
               Our alliance is dedicate to create a strong and inclusive community where every member can feel at home.
               We are from all over the World: respecting and promoting diversity is one of our main strengths.
@@ -52,8 +48,7 @@ const AboutPage = ({ onNavigate }) => {
             {/* Add more icons and descriptions if needed */}
           </div>
         </div>
-      </div>
-    </div>
+      </>
   );
 };
 

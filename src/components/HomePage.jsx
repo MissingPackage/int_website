@@ -1,15 +1,12 @@
 // src/components/HomePage.jsx
 import React from 'react';
-import '../styles/Common.css';
 
-const HomePage = ({ onNavigate }) => {
+const HomePage = () => {
   return (
-    <div className="page">
-      <div className="content">
-        <h1 className="title">INTernational</h1>
-        <a href="https://discord.gg/UM6rDcv7" className="cta-button">Join Us</a>
-      </div>
-    </div>
+    <>
+      <h1 className="mb-5 text-orange-600 drop-shadow text-3xl pt-20">INTernational</h1>
+      <a href="https://discord.gg/UM6rDcv7" className="inline-block mt-4 bg-blue-600 text-white no-underline rounded text-xl hover:bg-blue-700 px-2 py-1">Join Us On Discord</a>
+    </>
   );
 };
 
