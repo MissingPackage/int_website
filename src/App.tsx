@@ -1,20 +1,20 @@
 // src/App.tsx
 import React from 'react';
-import HomePage from './components/HomePage.jsx';
-import AboutPage from './components/AboutPage.jsx';
+import HomePage from './components/HomePage.tsx';
+import AboutPage from './components/AboutPage.tsx';
 import { Route, Routes } from 'react-router-dom';
-import Layout from './components/layout/Layout.js';
+import Layout from './components/layout/Layout.tsx';
+import ContactPage from './components/ContactPage.tsx';
 
 const App = () => {
   return (
-    <div>
-      <Routes>
-        <Route path='/' element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="about" element={<AboutPage />} />
-        </Route>
-      </Routes>
-    </div>
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path="about" element={<AboutPage />} />
+        <Route path="contact" element={<ContactPage />} />
+      </Route>
+    </Routes>
   );
 };
 
