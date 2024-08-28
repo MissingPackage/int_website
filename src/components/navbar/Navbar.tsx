@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
  
 export function NavbarSimple() { 
   return (
-    <Navbar className="mx-auto fixed min-w-full max-w-screen-xl px-6 py-3 bg-opacity-70" fullWidth={true} shadow={true}>
+    <Navbar className="mx-auto fixed min-w-full max-w-screen-xl px-6 py-3 bg-opacity-70 z-50" fullWidth={true} shadow={true}>
       <div className="flex items-center justify-center">
         <Typography
           variant="h6"

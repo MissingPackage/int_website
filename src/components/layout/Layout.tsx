@@ -5,7 +5,7 @@ import { NavbarSimple } from '../navbar/Navbar';
 
 const Layout = () => {
   return (
-    <div className="bg-cover bg-center bg-fixed min-h-full text-orange-500 m-0 p-0"
+    <div className="bg-cover bg-center bg-fixed min-h-full text-orange-500 m-0 p-0 overflow-x-hidden"
     style={{backgroundImage: `url(${Background})`}}>
         <NavbarSimple />
         <div className="text-center p-8 box-border min-h-screen">
