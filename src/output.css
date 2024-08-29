@@ -788,10 +788,6 @@ video {
   margin: 1rem;
 }
 
-.m-5 {
-  margin: 1.25rem;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -830,6 +826,10 @@ video {
 
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .ml-0\.5 {
@@ -886,14 +886,6 @@ video {
 
 .mt-px {
   margin-top: 1px;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .box-border {
@@ -1121,6 +1113,10 @@ video {
   width: 2rem;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .w-9 {
   width: 2.25rem;
 }
@@ -1148,14 +1144,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-80 {
-  width: 20rem;
 }
 
 .min-w-\[100vw\] {
@@ -1200,10 +1188,6 @@ video {
 
 .min-w-full {
   min-width: 100%;
-}
-
-.min-w-80 {
-  min-width: 20rem;
 }
 
 .max-w-\[100vw\] {
@@ -1417,6 +1401,10 @@ video {
   gap: 0.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -1431,10 +1419,6 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .divide-x > :not([hidden]) ~ :not([hidden]) {
@@ -2124,10 +2108,6 @@ video {
   --tw-bg-opacity: 1;
 }
 
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
-}
-
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
 }
@@ -2138,10 +2118,6 @@ video {
 
 .bg-opacity-80 {
   --tw-bg-opacity: 0.8;
-}
-
-.bg-opacity-90 {
-  --tw-bg-opacity: 0.9;
 }
 
 .bg-gradient-to-tr {
@@ -2530,16 +2506,16 @@ video {
   padding-top: 1.25rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
 .pt-\[9px\] {
   padding-top: 9px;
 }
 
 .pt-px {
   padding-top: 1px;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-left {
